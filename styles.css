@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background: rgb(73, 51, 51);
+    margin: 0px;
+    margin-bottom: 60px;
+    border-bottom: solid 4px #06afa7;
+}
+
+header {
+  border:solid 2px rgb(6, 175, 167);
+  text-align: center;
+  font-size: 32;
+  color: rgb(6, 175, 167);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+section{
+  background-color: rgb(141 13 13 / 68%);
+  padding: 60px;
+  display: flex;
+  align-content: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.midiaprincipal {
+  padding-bottom: 20px;
+}
+
+.textos-a {
+  margin-right: 5%;
+}
+
+ /*Códigos de estilo das recomendações-->*/
+
+.videos-b {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  background-color: rgb(73, 51, 51);
+  padding: 20px;
+}
+
+.recomendações  h2 {
+  color: rgba(226, 32, 32, 0.973);
+  background-color: #491f19;
+  padding-top: 70px;
+}
+
+.recomendações {
+  background: #741608a6;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.videos-b  img{
+  opacity:0.62;
+}
+
+.videos-b  img:hover{
+  opacity: 1;
+  border: 2px solid yellow;
+}
+
+img {
+  height: 200px;
+}
